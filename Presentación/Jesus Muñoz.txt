@@ -1,0 +1,6 @@
+Hola a todos, mi nombre es Jesus David Muñoz Mejía, soy de la ciudad de montería
+actualmente resido en la ciudad de medellin en la cual me encuentro estudiando
+el pregado en ingeniería fisica en la universidad nacional de colombia, tengo 19 años
+actualmente me encuentro haciendo el curso de programaacion en mintic Ciclo 4a en especifico
+con el cual espero poder aprender programacion web para así poder ejercer lo aprendido
+ya sea crendo paginas web con react o netx.js y el manejo y analisis de bases de datos.
