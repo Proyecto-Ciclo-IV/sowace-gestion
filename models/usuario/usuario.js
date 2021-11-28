@@ -17,8 +17,8 @@ const userSchema = new Schema({
     required: true,
     unique: true,
     validate: {
-      validator: (email) => {
-        return /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email);
+      validator: (correo) => {
+        return /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(correo);
       },
       // (email) => {
       //   if (email.includes('@') && email.includes('.')) {
@@ -30,10 +30,10 @@ const userSchema = new Schema({
       message: 'El formato del correo electrónico está malo.',
     },
   },
-  password: {
-    type: String,
-    required: true,
-  },
+  // password: {
+  //   type: String,
+  //   required: true,
+  // },
   identificacion: {
     type: String,
     required: true,
