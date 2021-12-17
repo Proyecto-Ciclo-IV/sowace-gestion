@@ -1,6 +1,5 @@
 import mongoose from 'mongoose';
 const { Schema, model } = mongoose;
-// import { Enum_Rol, Enum_EstadoUsuario } from '../enums/enums';
 
 const userSchema = new Schema({
   correo: {
@@ -30,6 +29,10 @@ const userSchema = new Schema({
   apellido: {
     type: String,
     required: true,
+  },
+  foto: {
+    type: String,
+    required: false,
   },
   rol: {
     type: String,
